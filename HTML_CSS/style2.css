@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+
+#main {
+    height: 100vh;
+    background-color: hsl(204, 63%, 82%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#center {
+    background-color: rgb(250, 250, 248);
+    width: 20%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+#pic {
+    width: 90%;
+    height: 90%;
+    border-radius: 5%;
+    margin: 0 0 5px 12px;
+}
+
+#text {
+    width: 80%;
+
+}
+
+p {
+    text-align: center;
+}
+
+#headline{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
